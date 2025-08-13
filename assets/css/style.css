@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+body {
+  min-width: 700px;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+/*Aqui comeinza el main*/
+.section-1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+.precioNegrita {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header {
+  width: 700px;
+  height: 15em;
+  background-color: #c8c8c8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-principal {
+  width: 250px;
+
+  height: 250px;
+}
+.tex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 13em;
+}
+.boton-banner {
+  width: 35%;
+  height: 25px;
+  border-radius: 7px;
+  background-color: #77ebb1;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.foto-producto {
+  width: 250px;
+  padding: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*Aqui termina el main*/
+
+/*Aqui comienza la seccion 2*/
+
+.section-2 {
+  margin-top: 0px;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.card-foto {
+  width: 600px;
+  height: 230px;
+  margin-bottom: 45px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 5px 15px 5px rgb(212, 212, 212);
+}
+spam {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 20px;
+  padding: 25px;
+}
+.info {
+  height: 150px;
+  padding: 0px 20px 0px 20px;
+  line-height: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.info-titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.info-precio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+span {
+  font-size: 12px;
+}
+input {
+  width: 15%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.info-boton-carrito {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  width: 70%;
+  background-color: #77ebb1;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 7%;
+
+  font-size: 15px;
+}
+/*Aqui termina la section 2*/
+/*Aqui comienza la section 3*/
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 120px;
+
+  width: 100%;
+}
+
+.footer {
+  width: 700px;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap wrap;
+  background-color: #c8c8c8;
+}
+.footer-contacto {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.footer-contacto {
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.7;
+  }
+}
